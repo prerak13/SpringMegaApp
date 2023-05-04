@@ -1,3 +1,8 @@
 author-test: author-test
-server:
-  port: 8082
+authors:
+  -
+    name: author1
+    id: a1
+  -
+    name: author2
+    id: a2

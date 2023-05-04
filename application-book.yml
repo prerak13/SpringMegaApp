@@ -1,3 +1,14 @@
 book-test: book-test
-server:
-  port: 8081
+books:
+  -
+    name: b1
+    id: b1
+    author: a1
+  -
+    name: b2
+    id: b2
+    author: a2
+  -
+    name: b3
+    id: b3
+    author: a3
