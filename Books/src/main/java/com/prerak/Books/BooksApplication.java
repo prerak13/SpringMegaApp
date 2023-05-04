@@ -22,11 +22,14 @@ public class BooksApplication implements CommandLineRunner {
 	@Autowired
 	BookRepository br;
 
+@Value("${config-test}")
+String x;
+
 	@Value("${book-test}")
-	String books;
+	String y;
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println(books);
+		System.out.println(x+y);
 	}
 }
