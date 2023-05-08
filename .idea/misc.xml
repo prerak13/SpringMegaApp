@@ -8,10 +8,12 @@
         <option value="$PROJECT_DIR$/Author/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/Authors/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Author/pom.xml" />
         <option value="$PROJECT_DIR$/demo/pom.xml" />
       </set>
     </option>

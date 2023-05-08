@@ -22,8 +22,8 @@ public class BooksApplication implements CommandLineRunner {
 	@Autowired
 	BookRepository br;
 
-	@Value("${books}")
-	List<Book> books;
+	@Value("${author-test}")
+	String books;
 
 	@Override
 	public void run(String... args) throws Exception {

@@ -1,8 +1,11 @@
 author-test: author-test
 authors:
   -
-    name: author1
-    id: a1
+    id: 1
+    name: a1
   -
-    name: author2
-    id: a2
+    id: 2
+    name: a2
+  -
+    id: 3
+    name: a3

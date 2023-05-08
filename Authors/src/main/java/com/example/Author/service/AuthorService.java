@@ -1,7 +1,8 @@
-package com.prerak.Author.service;
+package com.example.Author.service;
 
-import com.prerak.Author.entity.Author;
-import com.prerak.Author.repository.AuthorRepository;
+import com.example.Author.entity.Author;
+import com.example.Author.repository.AuthorRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -9,10 +10,11 @@ import java.util.List;
 
 @Service
 public class AuthorService {
+
     @Autowired
     AuthorRepository ar;
     public List<Author> getAllAuthor(){
-        return ar.getAllAuthor();
+        return ar.getAllAuthors();
     }
 
     public void addAuthor(Author a){

@@ -1,4 +1,4 @@
-package com.prerak.Author.entity;
+package com.example.Author.entity;
 
 
 import lombok.AllArgsConstructor;
@@ -11,4 +11,6 @@ import org.springframework.stereotype.Component;
 public class Author {
     public String name;
     public String id;
+
+
 }
