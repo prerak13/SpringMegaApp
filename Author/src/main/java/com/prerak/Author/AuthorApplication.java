@@ -3,11 +3,15 @@ package com.prerak.Author;
 import com.prerak.Author.entity.Author;
 import com.prerak.Author.repository.AuthorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
-@SpringBootApplication
+import java.util.List;
+
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
 public class AuthorApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
@@ -16,6 +20,9 @@ public class AuthorApplication implements CommandLineRunner {
 
 	@Autowired
 	AuthorRepository ar;
+
+	@Value("${authors}")
+	List<Author> authors;
 	@Override
 	public void run(String... args) throws Exception {
 		ar.addAuthor(new Author("author1","a1"));

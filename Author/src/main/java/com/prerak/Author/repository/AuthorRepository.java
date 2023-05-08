@@ -1,13 +1,14 @@
 package com.prerak.Author.repository;
 
 import com.prerak.Author.entity.Author;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@Repository
+@Component
 public class AuthorRepository {
 
     List<Author> authors=new ArrayList<>();

@@ -1,11 +1,11 @@
 package com.prerak.Author.entity;
 
 
-import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
+import org.springframework.stereotype.Component;
 
-@Entity
+@Component
 @AllArgsConstructor
 @NoArgsConstructor
 public class Author {
