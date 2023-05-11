@@ -1,11 +1,10 @@
 author-test: author-test
-authors:
-  -
-    id: 1
-    name: a1
-  -
-    id: 2
-    name: a2
-  -
-    id: 3
-    name: a3
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8889/eureka
+    instance:
+    preferIpAddress: true
+spring:
+  application:
+    name: author

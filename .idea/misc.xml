@@ -7,8 +7,10 @@
         <option value="$PROJECT_DIR$/Books/pom.xml" />
         <option value="$PROJECT_DIR$/Author/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/Authors/pom.xml" />
+        <option value="$PROJECT_DIR$/Eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/novels/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

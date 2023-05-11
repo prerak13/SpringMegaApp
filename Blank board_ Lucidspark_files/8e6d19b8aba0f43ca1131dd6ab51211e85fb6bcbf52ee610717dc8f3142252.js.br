@@ -1,0 +1,2 @@
+Lshw.prototype.ctc=Lsb(248,function(a,b,c){return __awaiter(this,void 0,void 0,function*(){const d=new Lsxk(this.lucidConfigure.LG);d.setPath(`/documents/${a}`);return this.xhr.lh({type:"PATCH",url:d.toString(),data:{transferOwnership:{ToUser:b,RemoveOwner:c}},timeout:6E4}).catch(e=>{this.Ra.handleError({error:e,severity:"Minor"})})})});function LsmRh(a,b,c){Lsch(a,d=>{LsTl(d,{pf:c,module:b})},LsUl)};
+//# sourceURL=/js/application/spark_app/chunk/gen_fff8fffffffe0000000000000000000000000000000000000.js?compiled=1
