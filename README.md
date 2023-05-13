@@ -2,6 +2,10 @@
 # Spring mega application
 
 This repository shall be part of my upcoming medium blog series where I'll be demonstrating various spring cloud comnponents. On compleation of this application, it'll be having 2 microservices, Distributed Logging using Zipkin, Configuration Server, Eureka Service registry, API Gateway & Hysterix circuit breaker.
+
+## Technical Diagram/flow
+![Diagram](https://github.com/prerak13/SpringMegaApp/blob/master/diagram.png)
+
 ## Objective
 
 Create a spring application and demonstrate various cloud components.
@@ -39,8 +43,3 @@ Feel Free To Reach Me At:
 - Go to the project directory
 - Install dependencies
 - Run project
-## Technical Diagram/flow
-
-
-
-![Diagram](https://github.com/prerak13/SpringMegaApp/blob/master/diagram.png)
