@@ -1,5 +1,6 @@
 package com.example.novels.controller;
 
+import com.example.novels.BookWithAuthorPojo;
 import com.example.novels.entity.Book;
 import com.example.novels.service.BookService;
 
@@ -17,6 +18,11 @@ public class BookController {
     @GetMapping("/books")
     public List<Book> getAllBook(){
         return bookService.getAllBook();
+    }
+
+    @GetMapping("/bookWithAuthor")
+    public List<BookWithAuthorPojo> bookWithAuthor() throws Exception{
+        return bookService.bookWithAuthor();
     }
 
     @PostMapping("/book")
